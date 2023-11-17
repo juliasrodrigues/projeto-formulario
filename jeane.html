@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Duo</title>
+    
+    <link rel="stylesheet" href="./estilo/style.css">
+
+</head>   
+<body>
+ <header class="cabecalho">
+    <nav class="cabecalho__menu">
+        <a class="cabecalho__menu__link" href="index.html">Home</a>
+        <a class="cabecalho__menu__link" href="#projetos">Experiência</a>
+        <a class="cabecalho__menu__link" href="#contato">Contato</a>
+    </nav>
+ </header>
+
+ <main class="apresentacao">
+    <section class="apresentacao__conteudo">
+        <h1 class="apresentacao__conteudo__titulo">Sobre mim</h1>
+        <p class="apresentacao__conteudo__texto">Olá, me chamo Jeane do Nascimento Baldez, tenho 19 anos. 
+            Sou graduanda em Análise e desenvolvimento de sistemas pela universidade Unisuam. 
+            Possuo certificados de Infraestrutura e arquitetura de computadores e suporte as aplicações, 
+            além de gerência de projetos, HTML, CSS e JavaScript.</p>
+        <h1 class="apresentacao__conteudo__titulo" id="projetos">Experiência</h1>
+        <p class="apresentacao__conteudo__texto"> 
+            Possuo experiência em criações de páginas e sites de lojas, 
+            utilizando HTML5, CSS3 e JavaScript. 
+            Em meu LinkedIn você encontrará toda a minha formação, 
+            juntamente com meus certificados e currículo. E, em meu Github, meus projetos realizados</p>
+
+        <div class="apresentacao__links" >
+            <a class="apresentacao__links__link" href="https://www.linkedin.com/in/jeane-do-nascimento-baldez-334676251/" id="links">LinkedIn 
+                <img src="imagens/linkedin.png" alt="">
+            </a>
+            <a class="apresentacao__links__link" href="https://github.com/Jeanebaldez" id="links">Github
+                <img src="imagens/github.png" alt="">
+            </a>
+                         
+        </div>
+        <h1 class="apresentacao__conteudo__titulo" id="contato">Contato</h1>
+        <form action="" method="">   <!--formulario-->
+            <label>Nome:</label>
+            <input type="text" name="nome" placeholder="Digite seu nome" autocomplete="off" required>
+            <label>Email:</label> 
+            <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+            <label>Mensagem:</label> 
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+            <a class="apresentacao__links__link__enviar" href="obrigada.html" id="links">Enviar</a>
+        </form>
+    </section>
+    <img class="apresentacao_foto" src="./imagens/jeane.jpeg" alt="Foto da Jeane">
+
+    <div class="pulse" id="btnTop">   <!--botão-->
+        <i class="arrow up"></i>
+    </div>
+ </main>
+
+ <div class="contato">    <!--contato no fim-->
+    <h2>Contatos</h2>
+    <p>Telefone: (21) 98548-4552</p>
+</div>
+
+ <footer class="rodape">
+    <p>Desenvolvido por Julia Rodrigues e Jeane Baldez.</p>
+</footer>
+</body>
+
+<script src="script.js"></script>
+
+</html>

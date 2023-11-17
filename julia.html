@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Duo</title>
+    
+    <link rel="stylesheet" href="./estilo/style.css">
+
+</head>   
+<body>
+ <header class="cabecalho">
+    <nav class="cabecalho__menu">
+        <a class="cabecalho__menu__link" href="index.html">Home</a>
+        <a class="cabecalho__menu__link" href="#projetos">Experiência</a>
+        <a class="cabecalho__menu__link" href="#contato">Contato</a>
+    </nav>
+ </header>
+
+ <main class="apresentacao">
+    <section class="apresentacao__conteudo">
+        <h1 class="apresentacao__conteudo__titulo">Sobre mim</h1>
+        <p class="apresentacao__conteudo__texto">Olá, meu nome é Julia Rodrigues! 
+            Eu tenho 25 anos, sou natural de Belém do Pará e atualmente resido
+            no Rio de Janeiro. Sou graduanda de Análise e 
+            Desenvolvimento de Sistemas na universade Unisuam. Possuo certificados de Gerência de Projetos de Software, 
+            Infraestrutura e Arquiteturas para Suporte as Aplicações e Front-end.</p>
+        <h1 class="apresentacao__conteudo__titulo" id="projetos">Experiência</h1>
+        <p class="apresentacao__conteudo__texto">Em meu LinkedIn você encontrará
+            toda a minha formação, juntamente com meus certificados e currículo. E, em meu Github,
+            meus projetos realizados.</p>
+
+        <div class="apresentacao__links" >
+            <a class="apresentacao__links__link" href="https://www.linkedin.com/in/juliasantosr/" id="links">LinkedIn 
+                <img src="imagens/linkedin.png" alt="">
+            </a>
+            <a class="apresentacao__links__link" href="https://github.com/juliasrodrigues" id="links">Github
+                <img src="imagens/github.png" alt="">
+            </a>
+                         
+        </div>
+        <h1 class="apresentacao__conteudo__titulo" id="contato">Contato</h1>
+        <form action="" method="post">
+            <label>Nome:</label>
+            <input type="text" name="nome" placeholder="Digite seu nome" autocomplete="off" required>
+            <label>Email:</label> 
+            <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+            <label>Mensagem:</label> 
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+            <a class="apresentacao__links__link__enviar" href="obrigada.html" id="links">Enviar</a>
+        </form>
+    </section>
+    <img class="apresentacao_foto" src="./imagens/ju.jpeg" alt="Foto da Julia">
+
+    <div class="pulse" id="btnTop">
+        <i class="arrow up"></i>
+    </div>
+ </main>
+
+ <div class="contato">    <!--contato no fim-->
+    <h2>Contato</h2>
+    <p>Telefone: (21) 96644-1699</p>
+</div>
+
+ <footer class="rodape">
+    <p>Desenvolvido por Julia Rodrigues e Jeane Baldez.</p>
+</footer>
+</body>
+
+<script src="script.js"></script>
+
+</html>
